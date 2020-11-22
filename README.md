@@ -8,3 +8,5 @@ The computer uses the minimax algorithm to ensure perfect play, hence it's impos
 Clone the repository and, if on Unix and have MinGW, run the command below to compile and run.
 
     g++ main.cpp board.cpp ai.cpp -o tictactoe && ./tictactoe
+
+When the program is running, enter 'help' for a list of commands.
