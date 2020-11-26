@@ -118,8 +118,11 @@ void play_versus_human()
                   int winner = b.get_winner();
                   if  (winner != -2)
                   {
-                     std::string foo = (winner == 1) ? "X" : "O";
-                     std::cout << foo << " wins!" << std::endl;
+                     std::string foo = "";
+                     if (winner == 1) { foo = "X wins!"; }
+                     else if  (winner == -1) { foo = "O wins!"; }
+                     else { foo = "Game is a draw!"; }
+                     std::cout << foo << std::endl;
                      game_over = true;
                   }
                   b.print_board(0); 
