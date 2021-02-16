@@ -267,7 +267,7 @@ void play_versus_ai()
 
 int main()
 {
-   
+   std::cout << "Enter 'help' for a list of available commands." << std::endl;  
     while (true)
     {
       std::cout << "Please enter a command: ";
