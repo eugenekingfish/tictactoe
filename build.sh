@@ -1,4 +1,4 @@
 #!/bin/bash
-g++ tictactoe.cpp  ai.cpp board.cpp -o tictactoe
+g++ -std=c++17 tictactoe.cpp  ai.cpp board.cpp -o tictactoe
 
 

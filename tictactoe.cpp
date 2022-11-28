@@ -144,11 +144,7 @@ void play_versus_ai()
 {
     srand(time(NULL));
 
-    board b({
-        0, 0, 0,
-        0, 0, 0,
-        0, 0, 0});
-    
+    board b = board({ 0, 0, 0, 0, 0, 0, 0, 0, 0});
     //Randomly choose if AI is playing as X or O. 
     int ai_int = rand() % 2;
     ai_int = ai_int == 0 ? -1 : 1;
