@@ -2,7 +2,7 @@
 #include <limits>
 #include <stdexcept>
 #include "ai.h"
-
+#include "time.h"
 
 enum INPUTS
 {

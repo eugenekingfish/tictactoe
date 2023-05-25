@@ -6,4 +6,4 @@ The computer uses the minimax algorithm to ensure perfect play, hence it's impos
 ## Installation
 
 1. Clone the repository.
-2. Run ``build.sh``.
+2. Run ``build.sh`` on Unix machines and ``build.bat`` on Windows machines.
